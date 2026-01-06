@@ -5,12 +5,12 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Navigation } from "@/components/Navigation";
 import Index from "./pages/index";
-import Dashboard from "./pages/Dashboard";
-import Insights from "./pages/Insights";
-import Charging from "./pages/Charging";
-import Tips from "./pages/Tips";
-import Infotainment from "./pages/Infotainment";
-import NotFound from "./pages/NotFound";
+import Dashboard from "./pages/dashboard";
+import Insights from "./pages/insights";
+import Charging from "./pages/charging";
+import Tips from "./pages/tips";
+import Infotainment from "./pages/infotainment";
+import NotFound from "./pages/notfound";
 
 const queryClient = new QueryClient();
 
